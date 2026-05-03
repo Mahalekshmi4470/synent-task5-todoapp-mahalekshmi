@@ -76,13 +76,23 @@ How to Run
 * Users can manage tasks efficiently with a clean UI
 
 
- Submission Details
-    GitHub Repository: To be updated  
-    Demo Video: To be added  
+ ToDo App
 
+📌 Submission Details
 
- LinkedIn Sharing
-    Will be shared after project completion  
+ 🔗 GitHub Repository
+[View Repo](https://github.com/Mahalekshmi4470/synent-task5-todoapp-mahalekshmi)
+
+ 🌐 Live Demo
+[Open App](https://mahalekshmi4470.github.io/synent-task5-todoapp-mahalekshmi/)
+
+ 🎥 Demo Video
+[Watch Video](https://www.linkedin.com/posts/mahalekshmi-s-1327ab324_internship-webdevelopment-learning-ugcPost-7456633177688760320-h3XS)
+
+ 📢 LinkedIn Sharing
+
+Shared on LinkedIn:
+https://www.linkedin.com/posts/mahalekshmi-s-1327ab324_internship-webdevelopment-learning-ugcPost-7456633177688760320-h3XS 
 
 
 
