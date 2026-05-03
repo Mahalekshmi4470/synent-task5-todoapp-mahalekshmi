@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Planner | To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-gradient"></div>
+    <div class="app-container">
+      <div class="glass-card">
+        <div class="app-header">
+          <div class="logo-badge">
+            <i class="fa-solid fa-sparkles logo-icon"></i>
+            <h1>Focus Flow</h1>
+          </div>
+          <p class="tagline">plan your day · stay consistent</p>
+        </div>
+
+        <div class="add-task-area">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="Write a new task..."
+            autocomplete="off"
+          />
+          <button id="addTaskBtn" aria-label="Add task">
+            <i class="fa-solid fa-plus"></i> Add task
+          </button>
+        </div>
+
+        <div class="stats-filer-bar">
+          <div class="task-stats">
+            <span class="stat-badge total" id="totalCount">0</span>
+            <span class="stat-label">total</span>
+            <span class="stat-divider">•</span>
+            <span class="stat-badge completed" id="completedCount">0</span>
+            <span class="stat-label">done</span>
+            <span class="stat-divider">•</span>
+            <span class="stat-badge pending" id="pendingCount">0</span>
+            <span class="stat-label">pending</span>
+          </div>
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+            <button class="filter-btn" data-filter="completed">
+              Completed
+            </button>
+            <button class="clear-completed-btn" id="clearCompletedBtn">
+              Clear done
+            </button>
+          </div>
+        </div>
+
+        <div id="tasksContainer" class="tasks-list">
+          <div class="empty-state-message">
+            <i class="fa-solid fa-clipboard-list empty-icon"></i>
+
+            <p>No tasks yet. Create your first task above.</p>
+          </div>
+        </div>
+
+        <div class="credit-note">
+          <i class="fa-solid fa-bolt"></i> auto-saved · designed for focus
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
